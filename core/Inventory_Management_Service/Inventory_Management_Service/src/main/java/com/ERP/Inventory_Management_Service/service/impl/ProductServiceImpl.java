@@ -1,16 +1,16 @@
-package com.ERP.Inventory_Management_Service.service;
+package com.ERP.Inventory_Management_Service.service.impl;
 
 import com.ERP.Inventory_Management_Service.model.Product;
 import com.ERP.Inventory_Management_Service.repository.ProductRepository;
+import com.ERP.Inventory_Management_Service.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
 @Service
-public class ProductServiceImpl implements ProductService{
+public class ProductServiceImpl implements ProductService {
 
     private final ProductRepository productRepository;
 

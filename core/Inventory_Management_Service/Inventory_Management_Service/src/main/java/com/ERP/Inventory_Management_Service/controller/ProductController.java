@@ -3,7 +3,6 @@ package com.ERP.Inventory_Management_Service.controller;
 import com.ERP.Inventory_Management_Service.model.Product;
 import com.ERP.Inventory_Management_Service.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.repository.query.Param;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
